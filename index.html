@@ -46,54 +46,77 @@
 
 
     <!-- Scroll Spy Main Content -->
-    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px 0%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0" bg-dark  px-3 >
-        
+    <main data-bs-spy="scroll" data-bs-target="#home" data-bs-root-margin="0px 0px 0%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0" bg-dark  px-3 >
         <!-- Home Section Start -->
-        <section id="home" class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 m-auto">
-                        <!-- Creat Carousel Slider-->
-                        <div class="carousel slide" id="slider1" data-bs-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <button  data-bs-target="#slider1" data-bs-slide-to="0"></button>
-                                <button  data-bs-target="#slider1" data-bs-slide-to="1"></button>
-                                <button  class="active" data-bs-target="#slider1" data-bs-slide-to="2"></button>
-                                <button  data-bs-target="#slider1" data-bs-slide-to="3"></button>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item">
-                                    <img src="https://cdn.pixabay.com/photo/2021/02/08/15/02/mountains-5995081__340.jpg"  style="width: 100%;">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="https://cdn.pixabay.com/photo/2020/06/15/01/06/sunset-5299957__340.jpg"  style="width: 100%;">
-                                </div>
-                                <div class="carousel-item active">
-                                    <img src="https://cdn.pixabay.com/photo/2021/01/18/17/46/sunset-5928907__340.jpg"  style="width: 100%;">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="https://cdn.pixabay.com/photo/2021/01/21/14/10/egret-5937499__340.jpg"  style="width: 100%;">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#slider1">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#slider1">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
-                    </div>
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+            <div class="carousel-inner" id="#home">
+              <div class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2021/02/08/15/02/mountains-5995081__340.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2020/06/15/01/06/sunset-5299957__340.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2021/01/21/14/10/egret-5937499__340.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </section>
         <!--Home Section End -->
 
         <!-- Different Section Start -->
         <section id="different" class="section">
-            <h1></h1>
+            <h1 class="topic">การเปรียบเทียบระหว่างแป้งขนมเบื้อง 2 สูตร</h1>
+            <div class="flexbox1">
+                <div class="item1">
+                    <div class="content1">
+                        <h2>สูตรที่ 1
+                            ส่วนผสม
+                        </h2>
+                    </div>
+                </div>
+                <div class="item1">
+                    <div class="content1">
+                        <h2>สูตรที่ 2</h2>
+                        <p>ส่วนผสม</p>
+                        <p>1 แป้งข้าวจ้าว 150 กรัม <br>
+                            2 แป้งถั่วเขียว 50 กรัม <br>
+                            3 น้ำปูนใส 100 กรัม <br>
+                            4 ไข่ไก 1-2 ่ ฟอง <br>
+                            5 น้ำตาลปี๊บ 100 กรัม <br>
+                            6 น้ำเปล่าเยนจ็ ัด 100 กรม</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Different Section End -->
     
         <!-- History Section Start -->
         <section id="history" class="section">
-            <h1></h1>
+            <h1 class="topic">ประวัติของขนมเบื้อง</h1>
+            <div class="flexbox">
+                <div class="item">
+                    <div class="content">
+                        <img src="พระราชพิธี 12 เดือน.jpg" style="width: 200px">
+                        <h6>พระราชพิธีสิบสองเดือน</h6>
+                    </div>
+                </div>
+            </div>
+            <p class="forcontent">ขนมเบื้องเป็นขนมไทยเชื่อว่ามีมาตั้งแต่สมัยสุโขทัย มีลักษณะเป็นแผ่นแป้งและไส้รสต่าง ๆ มี หลักฐานกล่าวถึงในคําให้การชาวกรุงเก่าหรือคําให้การหลวงหาวัดว่า “บ้านหม้อปั้นหม้อข้าวหม้อแกงใหญ่ เล็ก และกระทะเตาขนมครกขนมเบื้อง” ขนมเบื้องมีหลากหลายแบบต่างกันที่วัตถุดิบบางอย่างและวิธีใน การทํา อีกทั้งขนมเบื้องยังมีความสัมพันธ์กับวิถีชีวิตชาวไทยในสมัยก่อน เป็นขนมที่ชนช้ันสูงทําเพื่อถวาย แด่พระภิกษุสงฆ์ มีปรากฎในพระราชพิธี 12 เดือนของพระบาทสมเด็จพระจุลจอมเจ้าเกล้าอยู่หัว (รัชกาลที่ 5) (สุรีย์ ดารา,2565)
+                ขนมเบื้องประกอบด้วยสารอาหารที่มีคุณประโยชน์หลากหลายจากวัตถุดิบที่ใช้ในการทํา ช่วย บํารุงในเรื่องของตับให้แข็งแรง ช่วยกระตุ้นให้สารเคมีในสมองอย่างเอนดอร์ฟินหลั่งให้ผู้รับประทานมี อารมณ์ดี และยังช่วยบํารุงร่างกายให้ทํางานได้ตามปกติและมีความสมดุลอีกด้วย (สปริงกรีน,2564)</p>
         </section>
         <!-- History Section End -->
 
@@ -108,5 +131,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"  crossorigin="anonymous"></script>
   </body>
 </html>
