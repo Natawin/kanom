@@ -90,9 +90,10 @@ body{
 }
 
 .item1 {
-    display: flex;
+    display: block;
     box-sizing: border-box;
     text-decoration: none;
+    padding: 10px;
     width:100%;
 }
 
@@ -100,4 +101,30 @@ body{
     background-color: rgb(255, 231, 110);
     border: 2px solid black;
     padding: 16px;
+    border-radius:30px;
+    box-shadow: 4px 2px 8px 4px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-size: 23px;
+}
+
+.flexbox2 {
+    box-sizing: border-box;
+    padding: 10px;
+    display:flex;
+   
+}
+
+.item2 {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 10px;
+    width:33.33%;
+    padding:10px;
+}
+
+.content2 {
+    background-color: rgb(255, 229, 172)ack;
+    padding: 16px;
+    text-align: center;
 }
