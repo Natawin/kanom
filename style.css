@@ -16,15 +16,15 @@ body{
 .section {
     width: 100%;
     height: 75vh;
-    display: flex;
-    justify-content: end;
+    display: block;
+    justify-content: start;
     color: #fff;
     
 }
 
 .section:nth-child(odd) {
     background: rgb(255, 247, 228);
-    color:rgb(255, 247, 228);
+    color:rgb(159, 119, 25);
 }
 
 .section:nth-child(even) {
@@ -49,3 +49,82 @@ body{
     
 }
  
+.topic {
+    padding : 15px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color:black
+}
+
+.forcontent{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flexbox {
+    box-sizing: content-box;
+    float : right;
+    padding: 10px;
+   
+}
+
+.item {
+    display: flex;
+    box-sizing: content-box;
+    text-decoration: none;
+}
+
+.content {
+    background-color: rgb(255, 231, 110);
+    border: 2px solid black;
+    padding: 16px;
+}
+
+.flexbox1 {
+    display: flex;
+    box-sizing: border-box;
+    float : inline-start;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.item1 {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 10px;
+    width:100%;
+}
+
+.content1 {
+    background-color: rgb(255, 231, 110);
+    border: 2px solid black;
+    padding: 16px;
+    border-radius:30px;
+    box-shadow: 4px 2px 8px 4px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-size: 23px;
+}
+
+.flexbox2 {
+    box-sizing: border-box;
+    padding: 10px;
+    display:flex;
+   
+}
+
+.item2 {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 10px;
+    width:33.33%;
+    padding:10px;
+}
+
+.content2 {
+    background-color: rgb(255, 229, 172)ack;
+    padding: 16px;
+    text-align: center;
+}
