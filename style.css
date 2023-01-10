@@ -15,16 +15,16 @@ body{
 }
 .section {
     width: 100%;
-    height: 75vh;
-    display: flex;
-    justify-content: end;
+    height: 120vh;
+    display: block;
+    justify-content: center;
     color: #fff;
     
 }
 
 .section:nth-child(odd) {
     background: rgb(255, 247, 228);
-    color:rgb(255, 247, 228);
+    color:rgb(159, 119, 25);
 }
 
 .section:nth-child(even) {
@@ -48,4 +48,65 @@ body{
     color: brown;
     
 }
+
+.carousel-item{
+    height: 900px;
+}
  
+.topic {
+    
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color:black
+}
+
+.forcontent{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flexbox {
+    box-sizing: content-box;
+    float : right;
+    padding: 10px;
+    
+   
+}
+
+.item {
+    display: flex;
+    box-sizing: content-box;
+    text-decoration: none;
+}
+
+
+
+.flexbox1 {
+    display: flex;
+    box-sizing: border-box;
+    float : inline-start;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#div {
+    width: 800px;
+    height: 900px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    border-radius: 8px;
+    margin: 50px;
+    padding: 40px;
+    background-color: rgb(168, 108, 68);
+    overflow: hidden;
+    color: #fff;
+    font-size: 20px;
+    
+  }
+  #img1{
+    width: 175px;
+    position: absolute;
+    bottom: -1100px;
+    right: 16px;
+  }
